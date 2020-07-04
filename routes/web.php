@@ -17,3 +17,5 @@ Route::get('/', function () {
 });
 
 Route::resource('/questions', 'QuestionController');
+
+Route::resource('/answers', 'AnswerController');

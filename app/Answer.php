@@ -14,4 +14,10 @@ class Answer extends Model
         'content',
         'is_selected'
     ];
+
+    public function question(){
+        $this->hasOne('App\Question', 'question_id');
+    }
+
+   
 }

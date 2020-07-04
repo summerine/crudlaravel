@@ -13,4 +13,8 @@ class Question extends Model
         'content',
         'user_id'
     ];
+
+    public function answer(){
+        return $this->belongsTo('App\Answer');
+    }
 }
