@@ -2,7 +2,7 @@
  
 @section('content')
     <div class="row">
-        <div class="col-lg-12 margin-tb">
+        <div class="col-lg-12">
             <div class="pull-left">
                 <h2>Larahub</h2>
             </div>
@@ -18,7 +18,7 @@
         </div>
     @endif
    
-    <table class="table table-bordered">
+    <table class="table table-bordered mt-3">
         <tr>
             <th>No</th>
             <th>Title</th>
